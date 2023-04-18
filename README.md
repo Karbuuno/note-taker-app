@@ -4,7 +4,7 @@ An application that can be used to write, save, and delete notes. This applicati
 
 ## How to run this application
 
-npm run dev in your terminal
+npm run dev in your terminal<br>
 [deployed link](https://note-taker-nodjs.herokuapp.com/)<br>
 
 [github link](https://github.com/Karbuuno/note-taker-app)
