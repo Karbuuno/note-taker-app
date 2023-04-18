@@ -1,6 +1,10 @@
 ## Note Taker application
 
 An application that can be used to write, save, and delete notes. This application uses an express backend and save and retrieve note data from a JSON file. <br>
+
+## How to run this application
+
+npm run dev in your terminal
 [deployed link](https://note-taker-nodjs.herokuapp.com/)<br>
 
 [github link](https://github.com/Karbuuno/note-taker-app)
