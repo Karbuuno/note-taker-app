@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
+// reading data
 app.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/notes.html"));
 });
@@ -58,5 +58,5 @@ app.delete("/api/notes/:id", (req, res) => {
   res.json(deletedNote);
 });
 
-//listen tot he port when deployed
+//Server listening
 app.listen(PORT, () => console.log(`Server listening on port ${PORT} `));
